@@ -2,9 +2,8 @@ START
 # PROMPT the user to enter their score and convert it to an integer
 user's score = should be an integer input
 
-# check the input score of the user to see which range of grade it falls into
-ELSE score is not a number:
-    # display an error message if the user's input is not a number.
+ # display an error message if the user's input is not a number.
+IF score is not a number:
     display "Invalid pin"
 ELSE:
 # check the input score of the user to see which range of grade it falls into
